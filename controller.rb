@@ -4,7 +4,7 @@ require_relative('./models/game')
 
 also_reload('./models/*')
 
-get '/' do
+get '/home' do
   erb :home
 end
 
