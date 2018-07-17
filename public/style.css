@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}

@@ -8,15 +8,15 @@ class Game
 
   def game_winner
     if @hand_1 == @hand_2
-      return "It's a draw!"
+      return "Nobody wins - play again!"
     elsif @hand_1 == "rock" && @hand_2 == "paper"
-      return "player 2!"
+      return "Player 2!"
     elsif @hand_1 == "paper" && @hand_2 == "scissors"
-      return "player 2!"
+      return "Player 2!"
     elsif @hand_1 == "rock" && @hand_2 == "scissors"
-      return "player 1!"
+      return "Player 1!"
     elsif @hand_1 == "paper" && @hand_2 == "rock"
-      return "player 1!"
+      return "Player 1!"
     else
       return "You should read the rules again"
     end
